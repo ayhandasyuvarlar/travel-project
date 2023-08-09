@@ -1,0 +1,15 @@
+button {
+    width: 102px;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: var(--1st, #212832);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}

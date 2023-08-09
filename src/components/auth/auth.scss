@@ -1,0 +1,49 @@
+.auth-button-group {
+    display: flex;
+    width: 56%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+
+    &-login {
+        width: 102px;
+        height: 40px;
+        flex-shrink: 0;
+        background-color: transparent;
+        border: 0px solid transparent;
+        color: var(--1st, #212832);
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            border: 1px solid #212832;
+            border-radius: 10px ;
+         
+        }
+    }
+
+    &-signup {
+        width: 102px;
+        height: 40px;
+        flex-shrink: 0;
+        background-color: transparent;
+        border: 0px solid transparent;
+        color: var(--1st, #212832);
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            border: 1px solid #212832;
+            border-radius: 10px ;
+
+        }
+    }
+}
