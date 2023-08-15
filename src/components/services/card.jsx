@@ -1,5 +1,6 @@
 import './services.scss'
 
+// eslint-disable-next-line react/prop-types
 const CategoryCard = ({ id, title, img, content, idx }) => {
     return (
         <aside className='category-card' id={id}>

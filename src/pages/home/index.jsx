@@ -1,3 +1,4 @@
+import Destinations from "../../components/Destinations"
 import Hero from "../../components/Hero"
 import Services from "../../components/services"
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <section>
       <Hero />
       <Services />
+      <Destinations />
     </section>
   )
 }

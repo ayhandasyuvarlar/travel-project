@@ -7,7 +7,7 @@ import customization from '../assets/customization.svg'
 
 const ServicesContext = createContext()
 
-
+// eslint-disable-next-line react/display-name, no-undef, react/prop-types
 export const ServicesProvider = ({ children }) => {
     const values = [
         {
